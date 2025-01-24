@@ -61,4 +61,4 @@ ax.bar(d_bins[:-1]+width*3, (d_heights*100/d.count()), width=width, facecolor='b
 df['quartAverage'] = df.groupby(['YearlyQuarter'])['value'].mean()
 df.plot(x='YearlyQuarter', y='quartAverage')
 plt.legend()
-#plt.show()
+##plt.show()
